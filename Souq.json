@@ -1,0 +1,153 @@
+{
+	"info": {
+		"_postman_id": "29077fa3-2329-47d0-9458-1059aeefae8f",
+		"name": "Souq Website",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Items",
+			"item": [
+				{
+					"name": "All Items",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{BooksUrl}}/api/Items",
+							"host": [
+								"{{BooksUrl}}"
+							],
+							"path": [
+								"api",
+								"Items"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Popular Items",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{BooksUrl}}/api/Items/PopularItems",
+							"host": [
+								"{{BooksUrl}}"
+							],
+							"path": [
+								"api",
+								"Items",
+								"PopularItems"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "New Items",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{BooksUrl}}/api/Items/NewItems",
+							"host": [
+								"{{BooksUrl}}"
+							],
+							"path": [
+								"api",
+								"Items",
+								"NewItems"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Item By Id",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{BooksUrl}}/api/Items/10",
+							"host": [
+								"{{BooksUrl}}"
+							],
+							"path": [
+								"api",
+								"Items",
+								"10"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Save Item",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{BooksUrl}}/api/Items",
+							"host": [
+								"{{BooksUrl}}"
+							],
+							"path": [
+								"api",
+								"Items"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Sliders",
+			"item": [
+				{
+					"name": "Get All Sliders",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{BooksUrl}}/api/Sliders",
+							"host": [
+								"{{BooksUrl}}"
+							],
+							"path": [
+								"api",
+								"Sliders"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Categories",
+			"item": [
+				{
+					"name": "Get All Categories",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{BooksUrl}}/api/Categories",
+							"host": [
+								"{{BooksUrl}}"
+							],
+							"path": [
+								"api",
+								"Categories"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
